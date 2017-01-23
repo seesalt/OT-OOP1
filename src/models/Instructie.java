@@ -24,7 +24,7 @@ public class Instructie {
     }
 
     public int getLeeftijd() {
-        return leeftijd;
+        return leeftijd;;
     }
 
     public boolean isNederlandstalig() {
