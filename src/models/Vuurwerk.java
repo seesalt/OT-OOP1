@@ -21,7 +21,7 @@ public class Vuurwerk extends Product {
     }
 
     public Instructie getInstructie() {
-        return instructie;
+        return instructie;;
     }
 
     @Override

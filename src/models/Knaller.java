@@ -28,6 +28,6 @@ public class Knaller extends Vuurwerk {
     }
 
     public String toString(){
-        return super.toString() + "\n aaantalKnallen: " + aantalKnallen + "\n decibel: " + getDecibel();
+        return super.toString() + "\n aaantalKnallen: " + aantalKnallen + "\n Decibel: " + getDecibel();
     }
 }

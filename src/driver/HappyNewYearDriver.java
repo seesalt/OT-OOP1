@@ -100,7 +100,7 @@ einde TODO stap61 */
     }
 //TODO stap 2 */
 
-//TODO stap 3: haal commentaar weg
+
     private static void stap3(ArrayList<Vuurwerk> pakket) {
         System.out.println("\n--- STAP 3 ---");
 

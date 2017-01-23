@@ -9,7 +9,7 @@ package models;
  */
 public abstract class Product {
     /**
-     * Symbool voor Euro-teken
+     * Symbool voor Euro-tekenn
      */
     public static final String EURO = "\u20AC";
 

@@ -25,6 +25,6 @@ public class Vuurpijl extends Vuurwerk {
 
 
     public String toString(){
-
+        return "lol";
     }
 }
