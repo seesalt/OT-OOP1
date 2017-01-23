@@ -1,24 +1,31 @@
 package driver;
 
+import models.Instructie;
+import models.Knaller;
+import models.Vuurpijl;
+import models.Vuurwerk;
+
+import java.util.ArrayList;
+
 public class HappyNewYearDriver {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-/* TODO stap 1: haal commentaar weg
+//TODO stap 1: haal commentaar weg
         ArrayList<Vuurwerk> pakket = new ArrayList<Vuurwerk>();
-einde TODO stap 1 */
+//TODO stap 1 */
 
-        System.out.println("Happy new year from: Peter");
+        System.out.println("Happy new year from: Ralph 123456789 IS-108");
 
-/* TODO stap 1: haal commentaar weg
+//TODO stap 1: haal commentaar weg
         stap1(pakket);
-einde TODO stap 1 */
+//einde TODO stap 1 */
 
-/* TODO stap 2: haal commentaar weg
+///TODO stap 2: haal commentaar weg
         stap2(pakket);
-einde TODO stap 2 */
+//einde TODO stap 2 */
 
 /* TODO stap 3: haal commentaar weg
         stap3(pakket);
@@ -37,7 +44,7 @@ einde TODO stap 5 */
 einde TODO stap61 */
     }
 
-/* TODO stap 1: haal commentaar weg
+//TODO stap 1: haal commentaar weg
     private static void stap1(ArrayList<Vuurwerk> pakket) {
         System.out.println("\n--- STAP 1 ---");
 
@@ -60,9 +67,9 @@ einde TODO stap61 */
         pakket.add(vuurwerk);
         System.out.println(vuurwerk);
     }
-einde TODO stap 1 */
+//einde TODO stap 1 */
 
-/* TODO stap 2: haal commentaar weg
+///TODO stap 2: haal commentaar weg
     private static void stap2(ArrayList<Vuurwerk> pakket) {
         System.out.println("\n--- STAP 2 ---");
 
@@ -91,9 +98,9 @@ einde TODO stap 1 */
         pakket.add(knaller);
         System.out.println(knaller);
     }
-einde TODO stap 2 */
+//TODO stap 2 */
 
-/* TODO stap 3: haal commentaar weg
+//TODO stap 3: haal commentaar weg
     private static void stap3(ArrayList<Vuurwerk> pakket) {
         System.out.println("\n--- STAP 3 ---");
 
@@ -122,7 +129,7 @@ einde TODO stap 2 */
         pakket.add(vuurpijl);
         System.out.println(vuurpijl);
     }
-einde TODO stap 3 */
+//einde TODO stap 3 */
 
 /* TODO stap 4: haal commentaar weg
     public static void stap4(ArrayList<Vuurwerk> pakket) {

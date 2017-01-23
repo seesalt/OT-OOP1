@@ -7,7 +7,7 @@ package models;
  *
  * @author Dennis Breuker (d.m.breuker@hva.nl)
  */
-public class Product {
+public abstract class Product {
     /**
      * Symbool voor Euro-teken
      */
@@ -16,6 +16,11 @@ public class Product {
     private String naam;
     private double prijs;
 
+    public Product(String naam, double prijs){
+        this.naam = naam;
+        this.prijs= prijs;
+    }
+
     public String getNaam() {
         return naam;
     }
@@ -23,6 +28,8 @@ public class Product {
     public double getPrijs() {
         return prijs;
     }
+
+    public abstract boolean isLegaal();
     
     @Override
     public String toString() {
