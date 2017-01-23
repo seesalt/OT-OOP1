@@ -11,20 +11,30 @@ public class Vuurpijl extends Vuurwerk {
         super(naam, prijs, instructie);
         this.hoogte = hoogte;
         this.kleurverhouding = kleurverhouding;
+        if (!correcteKleurverhouding(kleurverhouding)) {
+            System.out.println("--> FOUT: Onjuiste kleurverhouding, kleur wordt rood");
+            this.kleurverhouding[0] = 100;
+            this.kleurverhouding[1] = 0;
+            this.kleurverhouding[2] = 0;
+        }
+    }
 
+    public boolean correcteKleurverhouding(int[] kleurverhouding) {
+        // if sum of array is not 100 return false
+        int sum = 0;
+        for (int i = 0; i < kleurverhouding.length; i++)
+            sum += kleurverhouding[i];
+        return (sum == 100);
     }
 
     @Override
     public boolean isLegaal() {
-        if (super.isLegaal() && getInstructie().getLeeftijd() > 16){
-            return true;
-        }
-        return false;
+        return super.isLegaal() && getInstructie().getLeeftijd() > 16;
     }
 
-
-
     public String toString(){
-        return "lol";
+        return super.toString() + "\n hoogte: " + this.hoogte + "meter" +
+                "\n kleuren:\n\tROOD: " + kleurverhouding[0] + "\n\tGROEN: "
+                + kleurverhouding[1] + "\n\tBLAUW: " + kleurverhouding[2] + "\n";
     }
 }
